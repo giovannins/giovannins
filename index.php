@@ -9,6 +9,13 @@ use \Bramus\Router\Router;
 global $loader, $twig;
 $loader = new FilesystemLoader(__DIR__ . '/src/views/');
 $twig = new Environment($loader);
+
+function calcAge()
+{
+    $todayYear = date('Y');
+    $birthYear = 2000;
+    return $todayYear - $birthYear;
+}
 ?>
 
 <!DOCTYPE html>
@@ -34,23 +41,23 @@ $twig = new Environment($loader);
                 </a>
             </h1>
             <div class="ml-auto list-none text-center flex flex-row">
-                <div class="p-1 mx-1 hover:bg-sky-500/75 rounded">
-                    <a href="/">
+                <div >
+                    <a class="p-2 mx-1 hover:bg-sky-500/75 rounded" href="/">
                         Home
                     </a>
                 </div>
-                <div class="p-1 mx-1 hover:bg-sky-500/75 rounded">
-                    <a href="/about">
+                <div >
+                    <a class="p-2 mx-1 hover:bg-sky-500/75 rounded" href="/about">
                         About
                     </a>
                 </div>
-                <div class="p-1 mx-1 hover:bg-sky-500/75 rounded">
-                    <a href="/blog">
+                <div >
+                    <a class="p-2 mx-1 hover:bg-sky-500/75 rounded" href="/blog">
                         Blog
                     </a>
                 </div>
-                <div class="p-1 mx-1 hover:bg-sky-500/75 rounded">
-                    <a href="/minecraft">
+                <div >
+                    <a class="p-2 mx-1 hover:bg-sky-500/75 rounded" href="/minecraft">
                         SMP
                     </a>
                 </div>
@@ -63,7 +70,7 @@ $twig = new Environment($loader);
         echo $GLOBALS['twig']->render('home/index.html');
     });
     $router->get('/about', function () {
-        echo $GLOBALS['twig']->render('about/index.html');
+        echo $GLOBALS['twig']->render('about/index.html', ['age' => calcAge()]);
     });
     $router->get('/blog', function () {
         echo 'a';
