@@ -21,10 +21,11 @@ $twig = new Environment($loader);
     <meta name="description" content="Portfolio and personal home page/blog.">
     <meta name="keywords" content="Giovanni Neves Sadauscas">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>GNS</title>
 </head>
 
-<body class="bg-zinc-800 text-white font-sans antialiased">
+<body class="bg-zinc-800 text-white font-serif antialiased">
     <header>
         <nav class="flex flex-row p-3 bg-sky-500/50 items-center">
             <h1 class="text-xl">
@@ -59,10 +60,10 @@ $twig = new Environment($loader);
     <?php
     $router = new Router();
     $router->get('/', function () {
-        echo $GLOBALS['twig']->render('home/index.html.twig', ['name' => 'giovanni']);
+        echo $GLOBALS['twig']->render('home/index.html');
     });
     $router->get('/about', function () {
-        require 'views/about/index.php';
+        echo $GLOBALS['twig']->render('about/index.html');
     });
     $router->get('/blog', function () {
         echo 'a';
