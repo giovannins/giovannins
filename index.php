@@ -5,8 +5,13 @@ require __DIR__ . '/vendor/autoload.php';
 use \Twig\Environment;
 use \Twig\Loader\FilesystemLoader;
 use \Bramus\Router\Router;
+use \Symfony\Component\Dotenv\Dotenv;
+
+$dotenv = new Dotenv();
+$dotenv->load(__DIR__ . '/.env');
 
 global $loader, $twig;
+
 $loader = new FilesystemLoader(__DIR__ . '/src/views/');
 $twig = new Environment($loader);
 
@@ -19,7 +24,7 @@ function calcAge()
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -42,22 +47,22 @@ function calcAge()
                 </a>
             </h1>
             <div class="ml-auto list-none text-center flex flex-row">
-                <div >
+                <div>
                     <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/">
                         Home
                     </a>
                 </div>
-                <div >
+                <div>
                     <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/about">
                         About
                     </a>
                 </div>
-                <div >
+                <div>
                     <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/blog">
                         Blog
                     </a>
                 </div>
-                <div >
+                <div>
                     <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/minecraft">
                         SMP
                     </a>
@@ -74,7 +79,7 @@ function calcAge()
         echo $GLOBALS['twig']->render('about/index.html', ['age' => calcAge()]);
     });
     $router->get('/blog', function () {
-        echo 'a';
+        echo $_ENV['db_user'];
     });
     $router->get('/minecraft', function () {
         require 'views/minecraft/index.php';
