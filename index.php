@@ -72,7 +72,7 @@ $twig = new Environment($loader);
         require 'views/minecraft/index.php';
     });
     $router->set404(function () {
-        require 'views/404.view.php';
+        echo $GLOBALS['twig']->render('404.html');
     });
     $router->run();
     ?>
