@@ -1,11 +1,14 @@
 <?php
 
-require_once '../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
-use \Twig\Loader\FilesystemLoader;
 use \Twig\Environment;
+use \Twig\Loader\FilesystemLoader;
 use \Bramus\Router\Router;
 
+global $loader, $twig;
+$loader = new FilesystemLoader(__DIR__ . '/src/views/');
+$twig = new Environment($loader);
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +27,7 @@ use \Bramus\Router\Router;
 <body class="bg-zinc-800 text-white font-sans antialiased">
     <header>
         <nav class="flex flex-row p-3 bg-sky-500/50 items-center">
-            <h1 class="text-xl ">
+            <h1 class="text-xl">
                 <a href="/">
                     GNS
                 </a>
@@ -56,15 +59,13 @@ use \Bramus\Router\Router;
     <?php
     $router = new Router();
     $router->get('/', function () {
-        $loader = new FilesystemLoader('views');
-        $twig = new Environment($loader);
-        $twig->render('home/index.html', ['name' => 'giovanni']);
+        echo $GLOBALS['twig']->render('home/index.html.twig', ['name' => 'giovanni']);
     });
     $router->get('/about', function () {
         require 'views/about/index.php';
     });
     $router->get('/blog', function () {
-      echo 'a';
+        echo 'a';
     });
     $router->get('/minecraft', function () {
         require 'views/minecraft/index.php';
