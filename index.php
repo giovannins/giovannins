@@ -24,6 +24,7 @@ function calcAge()
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio and personal home page/blog.">
     <meta name="keywords" content="Giovanni Neves Sadauscas">
@@ -34,7 +35,7 @@ function calcAge()
 
 <body class="bg-zinc-800 text-white font-serif antialiased">
     <header>
-        <nav class="flex flex-row p-3 bg-sky-500/50 items-center">
+        <nav class="flex flex-row p-3 bg-green-700/50 items-center">
             <h1 class="text-xl">
                 <a href="/">
                     GNS
@@ -42,22 +43,22 @@ function calcAge()
             </h1>
             <div class="ml-auto list-none text-center flex flex-row">
                 <div >
-                    <a class="p-2 mx-1 hover:bg-sky-500/75 rounded" href="/">
+                    <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/">
                         Home
                     </a>
                 </div>
                 <div >
-                    <a class="p-2 mx-1 hover:bg-sky-500/75 rounded" href="/about">
+                    <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/about">
                         About
                     </a>
                 </div>
                 <div >
-                    <a class="p-2 mx-1 hover:bg-sky-500/75 rounded" href="/blog">
+                    <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/blog">
                         Blog
                     </a>
                 </div>
                 <div >
-                    <a class="p-2 mx-1 hover:bg-sky-500/75 rounded" href="/minecraft">
+                    <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/minecraft">
                         SMP
                     </a>
                 </div>
