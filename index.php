@@ -50,10 +50,10 @@ function calcAge()
         echo $GLOBALS['twig']->render('about/index.html', ['age' => calcAge()]);
     });
     $router->get('/blog', function () {
-        echo $_ENV['db_url'];
+        echo $GLOBALS['twig']->render('blog/index.html');
     });
     $router->get('/minecraft', function () {
-        require 'views/minecraft/index.php';
+        echo $GLOBALS['twig']->render('minecraft/index.html');
     });
     $router->set404(function () {
         echo $GLOBALS['twig']->render('404.html');
