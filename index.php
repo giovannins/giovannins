@@ -40,38 +40,8 @@ function calcAge()
 </head>
 
 <body class="bg-zinc-800 text-white font-serif antialiased">
-    <header>
-        <nav class="flex flex-row p-3 bg-green-700/50 items-center">
-            <h1 class="text-xl">
-                <a href="/">
-                    GNS
-                </a>
-            </h1>
-            <div class="ml-auto list-none text-center flex flex-row">
-                <div>
-                    <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/">
-                        Home
-                    </a>
-                </div>
-                <div>
-                    <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/about">
-                        About
-                    </a>
-                </div>
-                <div>
-                    <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/blog">
-                        Blog
-                    </a>
-                </div>
-                <div>
-                    <a class="p-2 mx-1 hover:bg-green-700/75 rounded" href="/minecraft">
-                        SMP
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </header>
     <?php
+    require_once __DIR__ . '/src/components/navbar.html';
     $router = new Router();
     $router->get('/', function () {
         echo $GLOBALS['twig']->render('home/index.html');
