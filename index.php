@@ -62,6 +62,9 @@ function calcAge()
     $router->get('/minecraft', function () {
         echo $GLOBALS['twig']->render('minecraft/index.html');
     });
+    $router->get('/.env', function () {
+        echo $GLOBALS['twig']->render('404.html');
+    });
     $router->set404(function () {
         echo $GLOBALS['twig']->render('404.html');
     });
