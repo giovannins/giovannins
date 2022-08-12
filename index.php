@@ -55,6 +55,10 @@ function calcAge()
         $blog = new BlogController();
         $blog->index();
     });
+    $router->get('/blog/{id}', function ($id) {
+        $blog = new BlogController();
+        $blog->blogPost($id);
+    });
     $router->get('/minecraft', function () {
         echo $GLOBALS['twig']->render('minecraft/index.html');
     });
