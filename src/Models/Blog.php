@@ -25,14 +25,14 @@ class Blog
 
     public function getAll()
     {
-        $stmt = $this->conn->prepare("SELECT title, descricao, criado FROM posts ORDER BY id DESC");
+        $stmt = $this->conn->prepare("SELECT id, title, descricao, criado FROM posts ORDER BY id DESC");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_OBJ);
     }
 
     public function getId($id)
     {
-        $stmt = $this->conn->prepare("SELECT title, descricao, post, criado FROM posts WHERE id = {$id}");
+        $stmt = $this->conn->prepare("SELECT id, title, descricao, post, criado FROM posts WHERE id = {$id}");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_OBJ);
     }
