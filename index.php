@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use App\Controller\BlogController;
+use App\Controllers\BlogController;
 use \Twig\Environment;
 use \Twig\Loader\FilesystemLoader;
 use \Bramus\Router\Router;
