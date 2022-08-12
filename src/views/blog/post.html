@@ -1,15 +1,18 @@
 <main>
     <div class="md:m-12 m-6">
         <div class="felx flex-col border rounded p-6">
-            <h1 class="text-3xl">
+            <h1 class="text-4xl">
                 {{artigo.title}} <br>
             </h1>
-            <article class="font-serif text-lg text-justify mx-9 p-3 ">
-                <p>
-                    {{artigo.post}}
-                </p>
+            <hr>
+            <article class="font-serif md:text-xl text-lg md:mx-9 p-3 ">
+                    {{artigo.post | raw}}
             </article>
-            {{artigo.criado}} <br>
+            <div class="md:text-xs text-sm flex justify-end">
+                <span class="">
+                    {{artigo.criado}}
+                </span>
+            </div>
         </div>
     </div>
 </main>
