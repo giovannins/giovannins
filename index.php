@@ -41,7 +41,7 @@ function calcAge()
     <title>GNS</title>
 </head>
 
-<body class="bg-zinc-800 text-white font-serif antialiased">
+<body class="bg-zinc-800 text-white font-sans antialiased">
     <?php
     require_once __DIR__ . '/src/components/navbar.html';
     $router = new Router();

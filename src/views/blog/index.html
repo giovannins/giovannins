@@ -1,16 +1,16 @@
 <main class="animate__animated animate__fadeIn">
-    <div class="md:flex md:flex-col justify-center mx-2">
+    <div class="md:flex md:flex-col justify-center p-3 mx-2 sm:mx-4">
         {% for post in posts %}
         <div class="border rounded shadow mx-auto px-7 py-3 my-2 flex flex-col">
             <div class="flex flex-col md:flex-row">
                 <div class="justify-center md:mr-auto">
-                    <h2 class="text-xl md:text-3xl uppercase">{{post.title}}</h2>
+                    <h2 class="text-2xl md:text-3xl uppercase">{{post.title}}</h2>
                 </div>
                 <div class="justify-center">
-                    <span class="md:text-sm text-base">{{post.criado}}</span>
+                    <span class="md:text-xs text-sm">{{post.criado}}</span>
                 </div>
             </div>
-            <p class="indent-1 text-lg md:text-base text-justify m-6 md:m-4">{{post.descricao}}...</p>
+            <p class="indent-1 text-lg md:text-base text-justify m-6 md:m-4 font-serif">{{post.descricao}}...</p>
             <div class="flex md:justify-end justify-center">
                 <a href="/blog/{{post.id}}">
                     <button

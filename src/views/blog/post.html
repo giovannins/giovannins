@@ -1,7 +1,15 @@
-<div>
-    {{artigo.id}} <br>
-    {{artigo.title}} <br>
-    {{artigo.descricao}} <br>
-    {{artigo.post}} <br>
-    {{artigo.criado}} <br>
-</div>
+<main>
+    <div class="md:m-12 m-6">
+        <div class="felx flex-col border rounded p-6">
+            <h1 class="text-3xl">
+                {{artigo.title}} <br>
+            </h1>
+            <article class="font-serif text-lg text-justify mx-9 p-3 ">
+                <p>
+                    {{artigo.post}}
+                </p>
+            </article>
+            {{artigo.criado}} <br>
+        </div>
+    </div>
+</main>
