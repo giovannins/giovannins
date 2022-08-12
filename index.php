@@ -1,7 +1,8 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
+use App\Controller\BlogController;
 use \Twig\Environment;
 use \Twig\Loader\FilesystemLoader;
 use \Bramus\Router\Router;
@@ -10,8 +11,9 @@ use \Symfony\Component\Dotenv\Dotenv;
 $dotenv = new Dotenv();
 $dotenv->load(__DIR__ . '/.env');
 
-global $loader, $twig;
+global $loader, $twig, $rootdir;
 
+$rootdir = __DIR__;
 $loader = new FilesystemLoader(__DIR__ . '/src/views/');
 $twig = new Environment($loader);
 
@@ -50,7 +52,8 @@ function calcAge()
         echo $GLOBALS['twig']->render('about/index.html', ['age' => calcAge()]);
     });
     $router->get('/blog', function () {
-        echo $GLOBALS['twig']->render('blog/index.html');
+        $blog = new BlogController();
+        $blog->index();
     });
     $router->get('/minecraft', function () {
         echo $GLOBALS['twig']->render('minecraft/index.html');
