@@ -21,6 +21,17 @@ class BlogController
 
     public function index()
     {
-        echo $this->twig->render('./index.html');
+        echo $this->twig->render(
+            './index.html',
+            ['posts' => $this->blogModel->getAll()]
+        );
+    }
+
+    public function blogPost($id)
+    {
+        echo $this->twig->render(
+            './post.html',
+            ['artigo' => $this->blogModel->getId($id)[0]]
+        );
     }
 }
