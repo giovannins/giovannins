@@ -8,9 +8,9 @@ use \App\Models\Blog;
 
 class BlogController
 {
-    private $loader;
-    private $twig;
-    private $blogModel;
+    protected $loader;
+    protected $twig;
+    protected $blogModel;
 
     public function __construct()
     {
