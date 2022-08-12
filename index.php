@@ -65,7 +65,7 @@ function calcAge()
     $router->set404(function () {
         echo $GLOBALS['twig']->render('404.html');
     });
-    $router->match("GET|POST", '/.env', function () {
+    $router->before("GET|POST", '/.*', function () {
         echo $GLOBALS['twig']->render('404.html');
     });
     $router->run();
