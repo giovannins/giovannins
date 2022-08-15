@@ -9,7 +9,8 @@
     <title>{{$_ENV['APP_NAME']}} Post</title>
 </head>
 
-<body class="">
+<body class="bg-zinc-800 text-white">
+    @include('layouts.navbar')
     <div class="mt-2">
         <article>
             <?= $post ?>
