@@ -11,7 +11,9 @@
 
 <body class="bg-zinc-800 text-white">
     @include('layouts.navbar')
-    <h1 class="text-center display-1">Hello, Blog</h1>
+    @foreach ($posts as $post)
+        <h1>{{$post}}</h1>
+    @endforeach
 </body>
 
 </html>
