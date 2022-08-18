@@ -25,10 +25,8 @@ Route::get('/about', function () {
 });
 
 Route::get('/blog', function () {
-    
-    
     return view('blog', [
-        'posts' => ['hello', 'world', 'giovanni', 'fernanda']
+        'posts' => Post::all()
     ]);
 });
 
