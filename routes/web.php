@@ -19,11 +19,17 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        'age' => (date('Y') - 2000)
+    ]);
 });
 
 Route::get('/blog', function () {
-    return view('blog');
+    
+    
+    return view('blog', [
+        'posts' => ['hello', 'world', 'giovanni', 'fernanda']
+    ]);
 });
 
 Route::get('/blog/{id}', function ($id) {
