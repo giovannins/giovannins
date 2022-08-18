@@ -11,9 +11,14 @@
 
 <body class="bg-zinc-800 text-white">
     @include('layouts.navbar')
-    @foreach ($posts as $post)
-        <h1>{{$post}}</h1>
-    @endforeach
+    <?php foreach($posts as $post) : ?>
+    <div class="lg:mx-80 md:mx-40 mx-20 my-8">
+        <article>
+            <?= $post ?>
+        </article>
+    </div>
+    <hr class="lg:mx-80 md:mx-40 mx-20 opacity-20">
+    <?php endforeach ?>
 </body>
 
 </html>
