@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
     <?php foreach($posts as $post) : ?>
-    <div class="lg:mx-80 md:mx-40 mx-20 my-8">
+    <div class="lg:mx-48 md:mx-24 mx-12 my-8">
         <article class="">
             <h1 class="md:text-4xl text-3xl">
                 <a href="/blog/<?= $post->id ?>" class="text-blue-400 hover:text-blue-800 transition">
@@ -16,6 +16,6 @@
             </div>
         </article>
     </div>
-    <hr class="lg:mx-80 md:mx-40 mx-20 opacity-20">
+    <hr class="lg:mx-48 md:mx-24 mx-12 opacity-20">
     <?php endforeach ?>
 @endsection

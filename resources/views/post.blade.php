@@ -1,12 +1,12 @@
 @extends('layout')
 @section('content')
     <div class="mt-2">
-        <div class="lg:mx-80 md:mx-40 mx-20 my-8">
-            <article class="text-justify">
+        <div class="lg:mx-48 md:mx-24 mx-12 my-8">
+            <article class="">
                 <h1 class="md:text-4xl text-3xl">
                     {{ $post->title }}
                 </h1>
-                <div class="text-lg p-4">
+                <div class="text-lg p-4 text-justify leading-relaxed">
                     <?= $post->body ?>
                 </div>
                 <div class="flex flex-row-reverse md:text-xs text-sm ">
