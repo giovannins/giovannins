@@ -27,7 +27,7 @@
             <div class="flex flex-col sm:flex-row">
                 <div class="basis-2/3 border rounded p-6 m-1">
                     <h1 class="text-4xl">My configuration</h1>
-                    <h2 class="text-2xl text-gray-300">This is my computer hardware configuration and Linux
+                    <h2 class="text-2xl text-gray-400">This is my computer hardware configuration and Linux
                         configuration
                     </h2>
 
