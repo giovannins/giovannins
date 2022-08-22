@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
     <div class="mt-2">
-        <div class="lg:mx-48 md:mx-24 mx-12 my-8">
+        <div class="lg:mx-40 md:mx-20 mx-4 my-8">
             <article class="">
                 <h1 class="md:text-4xl text-3xl">
                     {{ $post->title }}
