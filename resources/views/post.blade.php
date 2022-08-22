@@ -2,7 +2,7 @@
 @section('content')
     <div class="mt-2">
         <div class="lg:mx-80 md:mx-40 mx-20 my-8">
-            <article class="">
+            <article class="text-justify">
                 <h1 class="md:text-4xl text-3xl">
                     {{ $post->title }}
                 </h1>
