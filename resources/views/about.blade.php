@@ -80,7 +80,7 @@
                                         </li>
                                         <li class="p-1">
                                             Internal software development using NextJS and PostgreSQL technologies;
-                                            <p class="indent-12 text-gray-400">
+                                            <p class="lg:indent-12 indent-6 text-gray-400">
                                                 Forecast dashboard for sales improvement and focus using the MEDDIC
                                                 method.
                                             </p>
@@ -102,15 +102,15 @@
                                     <ul class="list-disc list-inside m-3">
                                         <li class="p-1">
                                             Administrative system in PHP with MySQL;
-                                            <p class="indent-12 text-gray-400">System for user control and order of services.</p>
+                                            <p class="lg:indent-12 indent-6 text-gray-400">System for user control and order of services.</p>
                                         </li>
                                         <li class="p-1">
                                             API development in PHP;
-                                            <p class="indent-12 text-gray-400">Access and creation of work orders.</p>
+                                            <p class="lg:indent-12 indent-6 text-gray-400">Access and creation of work orders.</p>
                                         </li>
                                         <li class="p-1">
                                             Java Android Development.
-                                            <p class="indent-12 text-gray-400">Application to manage the administrative panel.</p>
+                                            <p class="lg:indent-12 indent-6 text-gray-400">Application to manage the administrative panel.</p>
                                         </li>
                                     </ul>
                                 </article>
