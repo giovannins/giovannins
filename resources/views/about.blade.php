@@ -27,7 +27,7 @@
                             <p class="p-2">
                                 <i class="fa-brands fa-linkedin"></i>
                                 <a href="https://www.linkedin.com/in/giovanni-neves-sadauscas/" target="_blank"
-                                    class="text-blue-400 hover:underline hover:text-blue-800 transition"
+                                    class="text-blue-400 hover:underline hover:text-blue-600 transition"
                                     title="Social media for professionals">
                                     LinkedIn
                                 </a>
@@ -35,7 +35,7 @@
                             <p class="p-2">
                                 <i class="fa-brands fa-gitlab"></i>
                                 <a href="https://gitlab.com/giovanni_ns" target="_blank"
-                                    class="text-blue-400 hover:underline hover:text-blue-800 transition"
+                                    class="text-blue-400 hover:underline hover:text-blue-600 transition"
                                     title="Here is where I save my code">
                                     GitLab
                                 </a>
@@ -43,7 +43,7 @@
                             <p class="p-2">
                                 <i class="fa-solid fa-at"></i>
                                 <a href="mailto:giovannins@giovannins.xyz"
-                                    class="text-blue-400 hover:underline hover:text-blue-800 transition"
+                                    class="text-blue-400 hover:underline hover:text-blue-600 transition"
                                     title="Very creative">
                                     giovannins@giovannins.xyz
                                 </a>
@@ -63,7 +63,7 @@
                         <div class="flex flex-col p-3">
                             <div class="border rounded md:p-6 p-3 m-1 w-full">
                                 <h3 class="text-lg"><a href="https://www.partnervision.com.br/"
-                                        class="hover:text-blue-800 transition" target="_blank">
+                                        class="hover:text-blue-600 transition" target="_blank">
                                         Partnervision
                                     </a>
                                     <span class="text-xs ml-2">current</span>
@@ -93,7 +93,7 @@
                             </div>
                             <div class="border rounded md:p-6 p-3 m-1 w-full">
                                 <h3 class="text-lg"><a href="https://www.guerreirosgames.com.br/"
-                                        class="hover:text-blue-800 transition" target="_blank">Guerreiros
+                                        class="hover:text-blue-600 transition" target="_blank">Guerreiros
                                         Games</a></h3>
                                 <article>
                                     <p class=p-2>

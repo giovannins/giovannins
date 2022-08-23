@@ -4,7 +4,7 @@
     <div class="lg:mx-40 md:mx-20 mx-4 my-8">
         <article class="">
             <h1 class="md:text-4xl text-3xl">
-                <a href="/blog/<?= $post->id ?>" class="text-blue-400 hover:text-blue-800 transition">
+                <a href="/blog/<?= $post->id ?>" class="text-blue-400 hover:text-blue-600 transition">
                     {{ $post->title }}
                 </a>
             </h1>

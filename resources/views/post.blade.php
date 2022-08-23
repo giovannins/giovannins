@@ -13,7 +13,7 @@
                     <span>{{ $post->date }}</span>
                 </div>
             </article>
-            <a href="/blog" class="text-blue-400 hover:text-blue-800">Go back</a>
+            <a href="/blog" class="text-blue-400 hover:text-blue-600 transition">Go back</a>
         </div>
     </div>
 @endsection
