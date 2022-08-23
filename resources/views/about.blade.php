@@ -5,7 +5,7 @@
             <div class="flex flex-col sm:flex-row ">
                 <div class="basis-1/2 border rounded p-6 m-1">
                     <h1 class="text-4xl">About me</h1>
-                    <div class="text-lg p-2 text-justify">
+                    <div class="text-lg p-2">
                         <p class="p-2">
                             Hello, I am Giovanni Neves Sadauscas, {{ $age }}, if you want to use an acronym,
                             GNS.
@@ -23,7 +23,7 @@
                 <div class="basis-1/4">
                     <div class="border rounded p-6 m-1">
                         <h1 class="text-3xl">Useful links</h1>
-                        <div class="md:text-lg text-base p-2 text-justify">
+                        <div class="md:text-lg text-base p-2">
                             <p class="p-2">
                                 <i class="fa-brands fa-linkedin"></i>
                                 <a href="https://www.linkedin.com/in/giovanni-neves-sadauscas/" target="_blank"
@@ -56,12 +56,12 @@
         <div class="p-3 mx-2 sm:mx-4">
             <div class="flex flex-col sm:flex-row">
                 <div class="basis-2/3">
-                    <div class="border rounded p-6 m-1">
+                    <div class="border rounded md:p-6 p-3 m-1">
                         <h1 class="text-4xl">Professional experience</h1>
                         <h2 class="text-base text-gray-400">where I worked, that I used to do</h2>
 
                         <div class="flex flex-col p-3">
-                            <div class="border rounded p-6 m-1 w-full">
+                            <div class="border rounded md:p-6 p-3 m-1 w-full">
                                 <h3 class="text-lg"><a href="https://www.partnervision.com.br/"
                                         class="hover:text-blue-800 transition" target="_blank">
                                         Partnervision
@@ -91,7 +91,7 @@
                                     </ul>
                                 </article>
                             </div>
-                            <div class="border rounded p-6 m-1 w-full">
+                            <div class="border rounded md:p-6 p-3 m-1 w-full">
                                 <h3 class="text-lg"><a href="https://www.guerreirosgames.com.br/"
                                         class="hover:text-blue-800 transition" target="_blank">Guerreiros
                                         Games</a></h3>

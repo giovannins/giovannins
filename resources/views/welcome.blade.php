@@ -3,9 +3,9 @@
     <main>
         <div class="p-3 mx-2 sm:mx-4">
             <div class="flex flex-col sm:flex-row">
-                <div class="basis-1/2 border rounded p-6 m-1">
+                <div class="basis-1/2 border rounded md:p-6 p-3 m-1">
                     <h1 class="text-4xl">Welcome!</h1>
-                    <div class="text-xl p-2 text-justify">
+                    <div class="text-xl p-2">
                         <p class="p-2">
                             This is my personal website, here you can see some of the things I do and I also have my
                             blog
@@ -25,9 +25,9 @@
         </div>
         <div class="p-3 mx-2 sm:mx-4">
             <div class="flex flex-col sm:flex-row">
-                <div class="basis-2/3 border rounded p-6 m-1">
-                    <h1 class="text-4xl">My configuration</h1>
-                    <h2 class="text-2xl text-gray-400">This is my computer hardware configuration and Linux
+                <div class="basis-2/3 border rounded md:p-6 p-3 m-1">
+                    <h1 class="md:text-4xl text-3xl">My configuration</h1>
+                    <h2 class="md:text-2xl text-lg text-gray-400">This is my computer hardware configuration and Linux
                         configuration
                     </h2>
 
