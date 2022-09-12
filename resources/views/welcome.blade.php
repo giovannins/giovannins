@@ -60,14 +60,13 @@
                             <div class="border rounded p-4 m-1">
                                 <h3 class="text-xl">Linux config</h3>
                                 <ul class="list-disc list-inside mt-3">
-                                    <li class="p-1">OS: Arch Linux</li>
-                                    <li class="p-1">DE: KDE Plasma</li>
-                                    <li class="p-1">WM: KWin</li>
+                                    <li class="p-1">OS: openSUSE Leap</li>
+                                    <li class="p-1">DE: GNOME 41</li>
+                                    <li class="p-1">WM: Mutter</li>
                                     <li class="p-1">Shell: Bash</li>
-                                    <li class="p-1">Theme: Breeze-Dark</li>
-                                    <li class="p-1">Icons: Breeze-Dark</li>
-                                    <li class="p-1">Terminal: Konsole</li>
-                                    <li class="p-1">Terminal Font: Hack Nerd Font 11</li>
+                                    <li class="p-1">Theme: Adwaita-dark</li>
+                                    <li class="p-1">Icons: Adwaita</li>
+                                    <li class="p-1">Terminal: gnome-terminal</li>
                                 </ul>
                             </div>
                         </div>

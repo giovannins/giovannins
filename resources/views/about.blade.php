@@ -13,7 +13,7 @@
                         <p class="p-2">
                             I am passionate about software and open-source systems. <span title="What a defeat">Yes, I
                                 use
-                                Linux (BTW, I use Arch)</span>
+                                Linux (by the way, I used to use Arch! Now I use OpenSUSE)</span>
                         </p>
                         <p class="p-2">
 
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="basis-1/4">
-                    <div class="border rounded p-6 m-1">
+                    <div class="border rounded p-4 m-1">
                         <h1 class="text-3xl">Useful links</h1>
                         <div class="md:text-lg text-base p-2">
                             <p class="p-2">
