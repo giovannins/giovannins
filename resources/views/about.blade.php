@@ -62,15 +62,31 @@
 
                         <div class="flex flex-col p-3">
                             <div class="border rounded md:p-6 p-3 m-1 w-full">
+                                <h3 class="text-lg"><a href="https://sinaispower.com.br/"
+                                        class="hover:text-blue-600 transition" target="_blank">
+                                        Sinais Power
+                                    </a>
+                                </h3>
+                                <article>
+                                    <p class=p-2>
+                                        PHP and Javascript development.
+                                    </p>
+                                    <ul class="list-disc list-inside m-3">
+                                        <li class="p-1">
+                                            Implementation of real-time reactive on database requests and users experience.
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                            <div class="border rounded md:p-6 p-3 m-1 w-full">
                                 <h3 class="text-lg"><a href="https://www.partnervision.com.br/"
                                         class="hover:text-blue-600 transition" target="_blank">
                                         Partnervision
                                     </a>
-                                    <span class="text-xs ml-2">current</span>
                                 </h3>
                                 <article>
                                     <p class=p-2>
-                                        I now work at Partnervision as a PTC software implementer and PTC Windchill
+                                        Partnervision as a PTC software implementer and PTC Windchill
                                         consultant.
                                     </p>
                                     <ul class="list-disc list-inside m-3">
