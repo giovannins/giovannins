@@ -1,0 +1,103 @@
+.wave-top-0 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-top-0 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 169px;
+}
+
+@media (max-width: 480px) {
+    .wave-top-0 svg {
+        height: 120px;
+    }
+}
+
+.wave-top-0 .shape-fill {
+    fill: #8B008B;
+}
+
+.wave-bottom-1 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-bottom-1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.wave-bottom-1 .shape-fill {
+    fill: #00FFBF;
+}
+
+.wave-top-1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-top-1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.wave-top-1 .shape-fill {
+    fill: #00FFBF;
+}
+
+
+.wave-bottom-2 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-bottom-2 svg {
+    display: block;
+    width: calc(210% + 1.3px);
+    height: 90px;
+    transform: rotateY(180deg);
+}
+
+.wave-bottom-2 .shape-fill {
+    fill: #FF8C00;
+}
+
+.wave-top-2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-top-2 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.wave-top-2 .shape-fill {
+    fill: #FF8C00;
+}

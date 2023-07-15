@@ -1,20 +1,23 @@
-# Giovanni Neves Sadauscas
+# Olá
 
- Hi, I'm Giovanni Neves Sadauscas, 22 years old, and I'm a PHP programmer.
- 
- I have a passion for open source software and systems. Yes, I use Linux (by the way, I used to use Arch! Now I use OpenSUSE).
+Olá! Sou o Giovanni Neves Sadauscas, também conhecido como giovannins ou, melhor ainda, o "mago do código" (brincadeira!). Sou um desenvolvedor com ampla experiência e habilidades diversificadas, especializado em desenvolvimento back-end. Com um total de 6 anos de experiência profissional em freelances e serviços prestados, além de passagens por empresas renomadas, estou pronto para enfrentar qualquer desafio no mundo do desenvolvimento de software.
 
- ## My website
+## Habilidades principais
 
-  On my website I publish my setup, my portfolio and my blog posts.
+### Desenvolvimento back-end
 
-  Some of this content describes my experiences and how I've evolved over that time, while other content just describes day-to-day happenings and what I've learned.
+Sou especialista nas linguagens PHP e C#, com habilidades avançadas em ambas. Minha experiência nesses idiomas permite-me criar soluções robustas e eficientes, garantindo um desempenho excelente e escalabilidade para os projetos.
 
-  you can access my website where [giovannins](https://giovannins.xyz).
+### Client/Front-end
 
-## Why PHP?
+Além do desenvolvimento back-end, tenho proficiência em JavaScript e TypeScript para criação de interfaces de usuário atraentes e interativas. Posso garantir uma experiência de usuário fluida e intuitiva, utilizando as melhores práticas e tecnologias do mercado.
 
-  I choose PHP as my main language for its simplicity and my previous experiences with it. I have tried Java, Ruby, JavaScript, Emacs LISP? I think the only one I haven't tried is C Sharp.
+### Frameworks
 
-  PHP fits where I want to perform. This makes me happy, happier to know about the community. Even knowing that javascript fans will tell me PHP is dying I know it is strong and holding its own.
+Trabalho com os frameworks Laravel, .NET/.NET Core, React.js e Vue.js, onde tenho um amplo conhecimento e experiência prática. Essas ferramentas são fundamentais para o desenvolvimento eficiente de aplicações web e me permitem criar soluções de alta qualidade em tempo hábil.
+
+## Experiência profissional
+
+### Caixa beneficente da policia militar
+
 
