@@ -16,8 +16,6 @@ Além do desenvolvimento back-end, tenho proficiência em JavaScript e TypeScrip
 
 Trabalho com os frameworks Laravel, .NET/.NET Core, React.js e Vue.js, onde tenho um amplo conhecimento e experiência prática. Essas ferramentas são fundamentais para o desenvolvimento eficiente de aplicações web e me permitem criar soluções de alta qualidade em tempo hábil.
 
-## Experiência profissional
+---
 
-### Caixa beneficente da policia militar
-
-
+Como um desenvolvedor Full Stack experiente, estou sempre em busca de novos desafios e oportunidades para aplicar meu conhecimento e habilidades. Minha paixão pela programação e meu comprometimento com a entrega de soluções de alta qualidade me tornam um profissional confiável e valorizado no mercado. Estou pronto para contribuir com projetos inovadores, trabalhando em equipe e ajudando a impulsionar o sucesso dos negócios por meio da tecnologia.
