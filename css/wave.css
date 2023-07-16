@@ -21,6 +21,7 @@
 }
 
 .wave-top-0 .shape-fill {
+    animation: wave-anime-0 12s alternate infinite;
     fill: #8B008B;
 }
 
@@ -41,6 +42,7 @@
 }
 
 .wave-bottom-1 .shape-fill {
+    animation: wave-anime-1 12s alternate infinite;
     fill: #00FFBF;
 }
 
@@ -60,6 +62,7 @@
 }
 
 .wave-top-1 .shape-fill {
+    animation: wave-anime-1 12s alternate infinite;
     fill: #00FFBF;
 }
 
@@ -81,6 +84,7 @@
 }
 
 .wave-bottom-2 .shape-fill {
+    animation: wave-anime-2 12s alternate infinite;
     fill: #FF8C00;
 }
 
@@ -99,5 +103,34 @@
 }
 
 .wave-top-2 .shape-fill {
+    animation: wave-anime-2 12s alternate infinite;
     fill: #FF8C00;
+}
+
+
+@keyframes wave-anime-0 {
+    from {
+        fill: #8B008B;
+    }
+    to {
+        fill: #FF00BF;
+    }
+}
+
+@keyframes wave-anime-1 {
+    from {
+        fill: #00FFBF;
+    }
+    to {
+        fill: #008080;
+    }
+}
+
+@keyframes wave-anime-2 {
+    from {
+        fill: #FF8C00;
+    }
+    to {
+        fill: #FF6000;
+    }
 }
