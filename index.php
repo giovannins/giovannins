@@ -74,25 +74,69 @@
             <article class="grid ">
                 <div class="box grid-center">
                     <div class="img-wrapper">
-                        <img src="/imgs/logo_cruz_azul.png" alt="Cruz-Azul Logo">
+                        <img src="/imgs/logos/cbpm.png" alt="Caixa Beneficente da Polícia Militar">
                     </div>
                     <div class="description">
-                        <h3>Desenvolvedor PHP</h3>
+                        <h3>Desenvolvedor Full-stack</h3>
+                        <h4>Caixa Beneficente da Polícia Militar</h4>
+                        <p>Experiência sólida em desenvolvimento full-stack utilizando C# em conjunto com React e
+                            Next.js. Especializado na criação de sistemas voltados para dependentes e pensionistas dos
+                            contribuintes da Caixa Beneficente da Polícia Militar.</p>
+                    </div>
+                    <div class="label-wrapper">
+                        <span class="label">c#</span>
+                        <span class="label">typescript</span>
+                        <span class="label">.netcore</span>
+                        <span class="label">next.js</span>
+                        <span class="label">redis</span>
+                    </div>
+                </div>
+
+
+                <div class="box grid-center">
+                    <div class="img-wrapper">
+                        <img src="/imgs/logos/cruz_azul.png" alt="Cruz-Azul">
+                    </div>
+                    <div class="description">
+                        <h3>Desenvolvedor Back-end</h3>
                         <h4>Hospital Cruz Azul SP</h4>
+                        <p>Desenvolvimento e integração de APIs utilizando C# e .NET Core em parceria com o Hospital
+                            Cruz-Azul de São Paulo, em prol da Caixa Beneficente da Polícia Militar. Desenvolvimento de
+                            soluções que permitem prestar atendimento especializado aos dependentes e pensionistas dos
+                            policiais militares.</p>
+                    </div>
+                    <div class="label-wrapper">
+                        <span class="label">c#</span>
+                        <span class="label">.netcore</span>
+                        <span class="label">swagger</span>
+                        <span class="label">sql server</span>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper">
+                        <img src="/imgs/logos/grosafety.jpg" alt="Gro safety">
+                    </div>
+                    <div class="description">
+                        <h3>Desenvolvedor Full-stack</h3>
+                        <h4>GRO Safety</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, tenetur doloribus. Minus
                             suscipit, doloremque tempore obcaecati voluptas dicta itaque dolore ad expedita officiis
                             amet quae tenetur sequi quidem. Commodi, eaque?</p>
                     </div>
                     <div class="label-wrapper">
                         <span class="label">php</span>
-                        <span class="label">javascript</span>
+                        <span class="label">codeigniter 4</span>
+                        <span class="label">css</span>
+                        <span class="label">vue.js</span>
+                        <span class="label">mysql</span>
                     </div>
-                    <a href="" class="btn btn-more">Saber mais</a>
                 </div>
+
 
                 <div class="box grid-center">
                     <div class="img-wrapper">
-                        <img src="/imgs/partnervision.jpg" alt="Partnervision">
+                        <img src="/imgs/logos/partnervision.jpg" alt="Partnervision">
                     </div>
                     <div class="description">
                         <h3>Consultor de desenvolvimento</h3>
@@ -107,12 +151,11 @@
                         <span class="label">oracle sql</span>
                         <span class="label">ptc windchill</span>
                     </div>
-                    <a href="" class="btn btn-more">Saber mais</a>
                 </div>
 
                 <div class="box grid-center">
                     <div class="img-wrapper">
-                        <img src="/imgs/Logo.png" alt="Massas para pizza">
+                        <img src="/imgs/logos/pizzaspre.png" alt="Massas para pizza">
                     </div>
                     <div class="description">
                         <h3>Desenvolvedor Full-stack</h3>
@@ -126,15 +169,14 @@
                         <span class="label">javascript</span>
                         <span class="label">mysql</span>
                     </div>
-                    <a href="" class="btn btn-more">Saber mais</a>
                 </div>
 
                 <div class="box grid-center">
                     <div class="img-wrapper">
-                        <img src="/imgs/sinaispower.jpg" alt="Sinais Power">
+                        <img src="/imgs/logos/sinaispower.jpg" alt="Sinais Power">
                     </div>
                     <div class="desciption">
-                        <h3>Desenvolvedor PHP</h3>
+                        <h3>Desenvolvedor Full-stack</h3>
                         <h4>Hospital Cruz-Azul SP</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, tenetur doloribus. Minus
                             suscipit, doloremque tempore obcaecati voluptas dicta itaque dolore ad expedita officiis
@@ -143,32 +185,9 @@
                     <div class="label-wrapper">
                         <span class="label">php</span>
                         <span class="label">javascript</span>
+                        <span class="label">mysql</span>
+                        <span class="label">web socket</span>
                     </div>
-                    <a href="" class="btn btn-more">Saber mais</a>
-                </div>
-
-                <div class="box grid-center">
-                    <img src="" alt="">
-                    <div class="description">
-                        <h3>Desenvolvedor PHP</h3>
-                        <h4>Hospital Cruz-Azul SP</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, tenetur doloribus. Minus
-                            suscipit, doloremque tempore obcaecati voluptas dicta itaque dolore ad expedita officiis
-                            amet quae tenetur sequi quidem. Commodi, eaque?</p>
-                    </div>
-                    <div class="label-wrapper">
-                        <span class="label">php</span>
-                        <span class="label">javascript</span>
-                    </div>
-                    <a href="" class="btn btn-more">Saber mais</a>
-                </div>
-                <div class="box grid-center">
-                    <h3>Desenvolvedor PHP</h3>
-                    <h4>Hospital Cruz-Azul SP</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, tenetur doloribus. Minus suscipit,
-                        doloremque tempore obcaecati voluptas dicta itaque dolore ad expedita officiis amet quae tenetur
-                        sequi quidem. Commodi, eaque?</p>
-                    <a href="" class="btn btn-more">Saber mais</a>
                 </div>
 
             </article>
@@ -208,8 +227,11 @@
             <h2 class="is-1">Tecnologias</h2>
             <article class="grid">
                 <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/new-php-logo.svg" alt="Logo php"></div>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatum, nihil molestiae voluptatem sapiente pariatur illo praesentium deserunt, quia ipsa beatae doloribus aliquid debitis iure ad odio distinctio error aperiam!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatum, nihil
+                            molestiae voluptatem sapiente pariatur illo praesentium deserunt, quia ipsa beatae doloribus
+                            aliquid debitis iure ad odio distinctio error aperiam!</p>
                     </div>
                 </div>
                 <div class="box grid-center"></div>
