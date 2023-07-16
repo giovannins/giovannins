@@ -13,7 +13,9 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+
+    </header>
     <main>
         <section class="zero">
             <article class="flex flex-direction-column">
@@ -177,10 +179,10 @@
                     </div>
                     <div class="desciption">
                         <h3>Desenvolvedor Full-stack</h3>
-                        <h4>Hospital Cruz-Azul SP</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, tenetur doloribus. Minus
-                            suscipit, doloremque tempore obcaecati voluptas dicta itaque dolore ad expedita officiis
-                            amet quae tenetur sequi quidem. Commodi, eaque?</p>
+                        <h4>Sinais power</h4>
+                        <p>Desenvolvi e automatizei alertas e sinais do mercado de ações para os usuários participantes,
+                            conectando-me por meio de Javascript AJAX e utilizando Web Socket para atualizações em tempo
+                            real. </p>
                     </div>
                     <div class="label-wrapper">
                         <span class="label">php</span>
@@ -367,8 +369,29 @@
                     </div>
                 </div>
 
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/Vue.js_Logo_2.svg" alt="Logo Vue js">
+                    </div>
+                    <div class="description">
+                        <h3>Vue</h3>
+                        <p>
+                            Framework JavaScript leve para interfaces web interativas e responsivas, com sintaxe
+                            simples e reutilização de componentes. Amplamente adotado por sua flexibilidade e integração
+                            fácil.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O Vue.js é um framework JavaScript progressivo para a construção de interfaces de usuário
+                            interativas. Ele é conhecido por sua facilidade de aprendizado, flexibilidade e excelente
+                            desempenho. Com o Vue.js, é possível criar componentes reutilizáveis, facilitando o
+                            desenvolvimento e a manutenção de aplicativos web modernos e responsivos. </p>
+                    </div>
+                </div>
 
             </article>
+        </section>
+        <section class="bg-">
+            <h2 class="is-1 ps-2">Contato</h2>
         </section>
     </main>
     <footer></footer>
