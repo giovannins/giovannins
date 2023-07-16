@@ -1,5 +1,13 @@
-h1, h2, h3, h4, h5
+h1,
+h2,
+h3,
+h4,
+h5
     font-family: "Ubuntu Bold"
+
+    @for $var from 1 through 5
+        &.ps-#{$var}
+            padding-left: ($var * 0.5rem) 
 
 .is-
     &1
@@ -11,3 +19,5 @@ h1, h2, h3, h4, h5
     &3
         font-size: 1.5rem
         padding: .5rem 0 1rem 0
+
+    
