@@ -287,7 +287,87 @@
                     </div>
                 </div>
 
-                <div class="box grid-center"></div>
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/Laravel.svg" alt="Logo Laravel">
+                    </div>
+                    <div class="description">
+                        <h3>Laravel</h3>
+                        <p>
+                            Laravel é um framework PHP popular, conhecido por sua elegância e facilidade de uso. Ele
+                            oferece uma sintaxe expressiva e uma ampla variedade de recursos para acelerar o
+                            desenvolvimento de aplicações web robustas, seguindo os princípios da arquitetura MVC.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O Laravel é um framework PHP poderoso e elegante que acelera o desenvolvimento web. Com sua
+                            sintaxe expressiva e conjunto de recursos abrangente, como autenticação, roteamento e
+                            gerenciamento de banco de dados, o Laravel permite construir aplicativos robustos de forma
+                            eficiente, seguindo as melhores práticas de desenvolvimento.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/React-icon.svg" alt="Logo C Sharp">
+                    </div>
+                    <div class="description">
+                        <h3>React</h3>
+                        <p>
+                            React é uma biblioteca JavaScript amplamente utilizada para construir interfaces de usuário
+                            (UI) modernas e reativas. Ele permite a criação de componentes reutilizáveis e oferece um
+                            alto desempenho por meio da atualização eficiente do DOM virtual.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O React é uma biblioteca JavaScript amplamente adotada para a construção de interfaces de
+                            usuário modernas e reativas. Ele permite criar componentes reutilizáveis e oferece um modelo
+                            de programação eficiente, resultando em aplicativos rápidos e responsivos. Sua popularidade
+                            e comunidade ativa garantem uma base sólida para o desenvolvimento de aplicações web
+                            interativas e escaláveis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/NET_Core_Logo.svg" alt="Logo NET Core">
+                    </div>
+                    <div class="description">
+                        <h3>.NET Core</h3>
+                        <p>
+                            O .NET Core é um framework de desenvolvimento de software de código aberto, multiplataforma
+                            e altamente escalável. Ele oferece um ambiente de execução consistente para construir
+                            aplicações web, desktop e mobile usando C# ou outras linguagens compatíveis.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O .NET Core é um framework de desenvolvimento versátil e multiplataforma que permite criar
+                            aplicativos escaláveis para diversas plataformas, incluindo web, desktop e mobile. Sua ampla
+                            gama de recursos e suporte a várias linguagens, como C# e F#, tornam-no uma escolha
+                            confiável para desenvolver soluções corporativas de alta performance e segurança.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/codeigniter.svg" alt="Logo Codeigniter">
+                    </div>
+                    <div class="description">
+                        <h3>Codeigniter 4</h3>
+                        <p>
+                            CodeIgniter é um framework PHP leve e rápido, projetado para facilitar o desenvolvimento de
+                            aplicações web. Ele possui uma curva de aprendizado suave e oferece uma arquitetura MVC
+                            simplificada, tornando-o adequado para projetos de todos os tamanhos.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O CodeIgniter é um framework PHP leve e rápido, perfeito para projetos que demandam rapidez
+                            no desenvolvimento. Com sua simplicidade e curva de aprendizado suave, é uma escolha ideal
+                            para construir aplicativos web eficientes e fáceis de manter.
+                        </p>
+                    </div>
+                </div>
+
+
             </article>
         </section>
     </main>
