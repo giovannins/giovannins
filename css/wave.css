@@ -108,10 +108,29 @@
 }
 
 
+.custom-shape-divider-top-1689523377 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1689523377 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-top-1689523377 .shape-fill {
+    fill: #1E1E1E;
+}
+
 @keyframes wave-anime-0 {
     from {
         fill: #8B008B;
     }
+
     to {
         fill: #FF00BF;
     }
@@ -121,6 +140,7 @@
     from {
         fill: #00FFBF;
     }
+
     to {
         fill: #008080;
     }
@@ -130,6 +150,7 @@
     from {
         fill: #FF8C00;
     }
+
     to {
         fill: #FF6000;
     }
