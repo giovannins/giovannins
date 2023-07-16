@@ -70,7 +70,7 @@
             </div>
         </section>
         <section>
-            <h2 class="is-1">Experiência Profissional</h2>
+            <h2 class="is-1 ps-2">Experiência Profissional</h2>
             <article class="grid ">
                 <div class="box grid-center">
                     <div class="img-wrapper">
@@ -224,18 +224,69 @@
 
         </section>
         <section>
-            <h2 class="is-1">Tecnologias</h2>
-            <article class="grid">
+            <h2 class="is-1 ps-2">Tecnologias</h2>
+            <article class="grid grid-is-3">
                 <div class="box grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/new-php-logo.svg" alt="Logo php"></div>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatum, nihil
-                            molestiae voluptatem sapiente pariatur illo praesentium deserunt, quia ipsa beatae doloribus
-                            aliquid debitis iure ad odio distinctio error aperiam!</p>
+                        <h3>PHP</h3>
+                        <p>
+                            PHP é uma linguagem de programação popular e amplamente utilizada para o desenvolvimento de
+                            aplicações web. Sua sintaxe amigável e vasta comunidade de desenvolvedores fazem dele uma
+                            escolha sólida para a construção de sistemas dinâmicos e escaláveis.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O PHP é amplamente utilizado devido à sua longa história e à enorme comunidade de
+                            desenvolvedores. Sua flexibilidade e extensa biblioteca de funções tornam-no ideal para
+                            construir sistemas web dinâmicos e escaláveis. Além disso, sua integração perfeita com
+                            bancos de dados relacionais permite a criação de aplicativos robustos e eficientes.
+                        </p>
                     </div>
                 </div>
-                <div class="box grid-center"></div>
-                <div class="box grid-center"></div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/icons8-javascript-480.svg" alt="Logo javascript">
+                    </div>
+                    <div class="description">
+                        <h3>Javascript</h3>
+                        <p>
+                            Javascript é uma linguagem de programação amplamente utilizada para desenvolvimento web. Sua
+                            versatilidade permite criar interações dinâmicas e responsivas nos navegadores, além de
+                            suportar a construção de aplicações do lado do cliente (frontend) e do lado do servidor
+                            (backend).
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O JavaScript é a linguagem de programação essencial para o desenvolvimento web moderno. Com
+                            ele, é possível criar interfaces de usuário interativas, adicionar funcionalidades dinâmicas
+                            às páginas da web e desenvolver aplicativos web completos, além de ser amplamente suportado
+                            por navegadores e frameworks populares.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/c-sharp-c.svg" alt="Logo C Sharp">
+                    </div>
+                    <div class="description">
+                        <h3>C#</h3>
+                        <p>
+                            C# é uma linguagem de programação moderna e robusta, desenvolvida pela Microsoft, voltada
+                            principalmente para o desenvolvimento de aplicações desktop, web e mobile. Sua sintaxe
+                            elegante e recursos avançados facilitam a construção de sistemas escaláveis e seguros.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O C# é uma escolha comum para o desenvolvimento de aplicativos empresariais e sistemas
+                            corporativos devido à sua sintaxe elegante, orientação a objetos e suporte à programação
+                            assíncrona. Com a ampla gama de bibliotecas e frameworks disponíveis, o C# oferece uma
+                            plataforma sólida para a criação de aplicativos desktop, web e mobile altamente escaláveis e
+                            seguros.
+                        </p>
+                    </div>
+                </div>
+
                 <div class="box grid-center"></div>
             </article>
         </section>
