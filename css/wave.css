@@ -14,12 +14,6 @@
     height: 169px;
 }
 
-@media (max-width: 480px) {
-    .wave-top-0 svg {
-        height: 120px;
-    }
-}
-
 .wave-top-0 .shape-fill {
     animation: wave-anime-0 12s alternate infinite;
     fill: #8B008B;
@@ -108,7 +102,7 @@
 }
 
 
-.custom-shape-divider-top-1689523377 {
+.custom-shape-divider-top-1689596889 {
     top: 0;
     left: 0;
     width: 100%;
@@ -116,15 +110,91 @@
     line-height: 0;
 }
 
-.custom-shape-divider-top-1689523377 svg {
+.custom-shape-divider-top-1689596889 svg {
     display: block;
     width: calc(100% + 1.3px);
-    height: 70px;
+    height: 100px;
 }
 
-.custom-shape-divider-top-1689523377 .shape-fill {
-    fill: #1E1E1E;
+.custom-shape-divider-top-1689596889 .shape-fill {
+    animation: wave-anime-3 12s alternate infinite;
+    fill: #FFC6FF;
 }
+
+
+.custom-shape-divider-bottom-1689596931 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689596931 svg {
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689596931 .shape-fill {
+    animation: wave-anime-3 12s alternate infinite;
+    fill: #FFC6FF;
+}
+
+
+.custom-shape-divider-bottom-1689597182 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1689597182 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689597182 .shape-fill {
+    animation: wave-anime-0 12s alternate infinite;
+    fill: #8B008B;
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .wave-top-0 svg {
+        height: 120px;
+    }
+
+    .wave-bottom-2 svg {
+        height: 60px;
+    }
+
+    .wave-top-2 svg {
+        height: 60px;
+    }
+
+    .custom-shape-divider-bottom-1689596931 svg {
+        height: 60px;
+    }
+
+    .custom-shape-divider-top-1689596889 svg {
+        height: 60px;
+    }
+
+    .custom-shape-divider-bottom-1689597182 svg {
+        height: 60px;
+    }
+}
+
+
 
 @keyframes wave-anime-0 {
     from {
@@ -153,5 +223,15 @@
 
     to {
         fill: #FF6000;
+    }
+}
+
+@keyframes wave-anime-3 {
+    from {
+        fill: #FFC6FF;
+    }
+
+    to {
+        fill: #FF00FF;
     }
 }
