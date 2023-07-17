@@ -114,6 +114,7 @@
     display: block;
     width: calc(100% + 1.3px);
     height: 100px;
+    transform: rotateY(180deg);
 }
 
 .wave-bottom-3 .shape-fill {
@@ -135,7 +136,6 @@
     display: block;
     width: calc(200% + 1.3px);
     height: 100px;
-    transform: rotateY(180deg);
 }
 
 .wave-top-3 .shape-fill {

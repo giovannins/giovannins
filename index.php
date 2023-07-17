@@ -454,11 +454,27 @@
                 </svg>
             </div>
         </section>
-        <section>
-            <h2 class="is-1 ps-2">Contato</h2>
-            <article>
+        <section id="SobreMim">
+            <div class="flex flex-justify-evenly">
+                <article class="p-3">
+                    <h2 class="is-1 ps-2">Sobre mim</h2>
+                    <p class="pb-4 flow-text">
+                        Olá! Sou o Giovanni Neves Sadauscas, também conhecido como giovannins. Sou um desenvolvedor com
+                        ampla experiência e habilidades diversificadas, especializado em desenvolvimento back-end.
+                    </p>
+                    <p class="pb-4 flow-text">
+                        Com um total de 6 anos de experiência profissional em freelances e serviços prestados, estou
+                        pronto para enfrentar qualquer desafio no mundo do desenvolvimento de software.
+                    </p>
+                </article>
+                <article class="p-3">
+                    <h2 class="is-1 ps-2">Contato</h2>
+                    <p class="pb-4 flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos hic quasi, deserunt, delectus
+                        debitis unde maiores ipsam eum recusandae doloremque libero labore asperiores? Tempora labore,
+                        odit nemo totam obcaecati officia?</p>
+                </article>
 
-            </article>
+            </div>
         </section>
     </main>
     <footer>
