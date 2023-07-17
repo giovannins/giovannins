@@ -102,7 +102,7 @@
 }
 
 
-.custom-shape-divider-top-1689596889 {
+.wave-bottom-3 {
     top: 0;
     left: 0;
     width: 100%;
@@ -110,19 +110,19 @@
     line-height: 0;
 }
 
-.custom-shape-divider-top-1689596889 svg {
+.wave-bottom-3 svg {
     display: block;
     width: calc(100% + 1.3px);
     height: 100px;
 }
 
-.custom-shape-divider-top-1689596889 .shape-fill {
+.wave-bottom-3 .shape-fill {
     animation: wave-anime-3 12s alternate infinite;
     fill: #FFC6FF;
 }
 
 
-.custom-shape-divider-bottom-1689596931 {
+.wave-top-3 {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -131,20 +131,20 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1689596931 svg {
+.wave-top-3 svg {
     display: block;
     width: calc(200% + 1.3px);
     height: 100px;
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1689596931 .shape-fill {
+.wave-top-3 .shape-fill {
     animation: wave-anime-3 12s alternate infinite;
     fill: #FFC6FF;
 }
 
 
-.custom-shape-divider-bottom-1689597182 {
+.wave-bottom-0 {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -152,14 +152,14 @@
     line-height: 0;
 }
 
-.custom-shape-divider-bottom-1689597182 svg {
+.wave-bottom-0 svg {
     display: block;
     width: calc(100% + 1.3px);
     height: 100px;
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1689597182 .shape-fill {
+.wave-bottom-0 .shape-fill {
     animation: wave-anime-0 12s alternate infinite;
     fill: #8B008B;
 }
@@ -181,15 +181,15 @@
         height: 60px;
     }
 
-    .custom-shape-divider-bottom-1689596931 svg {
+    .wave-top-3 svg {
         height: 60px;
     }
 
-    .custom-shape-divider-top-1689596889 svg {
+    .wave-bottom-3 svg {
         height: 60px;
     }
 
-    .custom-shape-divider-bottom-1689597182 svg {
+    .wave-bottom-0 svg {
         height: 60px;
     }
 }

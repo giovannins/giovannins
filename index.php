@@ -401,7 +401,7 @@
             </article>
 
 
-            <div class="custom-shape-divider-bottom-1689596931">
+            <div class="wave-top-3">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                     preserveAspectRatio="none">
                     <path
@@ -416,7 +416,7 @@
                 </svg>
             </div>
 
-            <div class="custom-shape-divider-top-1689596889">
+            <div class="wave-bottom-3">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                     preserveAspectRatio="none">
                     <path
@@ -439,7 +439,7 @@
         </section>
     </main>
     <footer>
-        <div class="custom-shape-divider-bottom-1689597182">
+        <div class="wave-bottom-0">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
                 <path
