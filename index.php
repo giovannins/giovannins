@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giovanni Neves Sadauscas">
+    <meta name="keywords"
+        content="Desenvolvedor Back-end, API RESTful, Laravel, Symfony, Codeigniter, desenvolvimento web, inovação tecnológica">
+    <meta name="language" content="Português">
+    <meta name="description"
+        content="Desenvolvedor Back-end com experiência em criação de APIs RESTful e frameworks populares, como Laravel e Symfony. Interessado em projetos desafiadores e inovação tecnológica.">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-S858BQRWN2"></script>
@@ -20,7 +26,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Home | Giovanni Neves Sadauscas</title>
+    <title>Giovanni Neves Sadauscas - Desenvolvedor Back-end</title>
 </head>
 
 <body>
@@ -41,10 +47,10 @@
                 <h2 class="hero-description">Giovanni Neves Sadauscas</h2>
 
                 <div role="link" class="row-links">
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/giovanni-neves-sadauscas/">
                         <i class="fa-brands fa-linkedin fa-xl"></i>
                     </a>
-                    <a href="">
+                    <a href="https://github.com/giovannins">
                         <i class="fa-brands fa-github fa-xl"></i>
                     </a>
                 </div>
@@ -79,7 +85,7 @@
                 </svg>
             </div>
         </section>
-        <section>
+        <section id="ExperienciaProfissional">
             <h2 class="is-1 ps-2">Experiência Profissional</h2>
             <article class="grid ">
                 <div class="box grid-center">
@@ -233,7 +239,7 @@
             </div>
 
         </section>
-        <section>
+        <section id="Tecnologias">
             <h2 class="is-1 ps-2">Tecnologias</h2>
             <article class="grid grid-is-3">
                 <div class="box grid-center">
@@ -256,22 +262,60 @@
                 </div>
 
                 <div class="box grid-center">
-                    <div class="img-wrapper"><img src="/imgs/tech/icons8-javascript-480.svg" alt="Logo javascript">
+                    <div class="img-wrapper"><img src="/imgs/tech/symfony.svg" alt="Logo Symfony">
                     </div>
                     <div class="description">
-                        <h3>Javascript</h3>
+                        <h3>Symfony</h3>
                         <p>
-                            Javascript é uma linguagem de programação amplamente utilizada para desenvolvimento web. Sua
-                            versatilidade permite criar interações dinâmicas e responsivas nos navegadores, além de
-                            suportar a construção de aplicações do lado do cliente (frontend) e do lado do servidor
-                            (backend).
+                            Symfony é um framework PHP de código aberto, poderoso e altamente flexível. Ele oferece um
+                            conjunto abrangente de componentes reutilizáveis e uma arquitetura robusta baseada no padrão
+                            MVC (Model-View-Controller).
                         </p>
                         <h4>Por quê?</h4>
                         <p>
-                            O JavaScript é a linguagem de programação essencial para o desenvolvimento web moderno. Com
-                            ele, é possível criar interfaces de usuário interativas, adicionar funcionalidades dinâmicas
-                            às páginas da web e desenvolver aplicativos web completos, além de ser amplamente suportado
-                            por navegadores e frameworks populares.
+                            O Symfony é um framework PHP robusto e amplamente adotado que oferece uma arquitetura
+                            escalável e flexível. Ele é conhecido por sua estabilidade, eficiência e alto desempenho. Ao
+                            utilizar o Symfony nos seus serviços, você garante a construção de aplicativos web seguros,
+                            de fácil manutenção e que seguem as melhores práticas de desenvolvimento.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/Laravel.svg" alt="Logo Laravel">
+                    </div>
+                    <div class="description">
+                        <h3>Laravel</h3>
+                        <p>
+                            Laravel é um framework PHP popular, conhecido por sua elegância e facilidade de uso. Ele
+                            oferece uma sintaxe expressiva e uma ampla variedade de recursos para acelerar o
+                            desenvolvimento de aplicações web robustas, seguindo os princípios da arquitetura MVC.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O Laravel é um framework PHP poderoso e elegante que acelera o desenvolvimento web. Com sua
+                            sintaxe expressiva e conjunto de recursos abrangente, como autenticação, roteamento e
+                            gerenciamento de banco de dados, o Laravel permite construir aplicativos robustos de forma
+                            eficiente, seguindo as melhores práticas de desenvolvimento.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/codeigniter.svg" alt="Logo Codeigniter">
+                    </div>
+                    <div class="description">
+                        <h3>Codeigniter 4</h3>
+                        <p>
+                            CodeIgniter é um framework PHP leve e rápido, projetado para facilitar o desenvolvimento de
+                            aplicações web. Ele possui uma curva de aprendizado suave e oferece uma arquitetura MVC
+                            simplificada, tornando-o adequado para projetos de todos os tamanhos.
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O CodeIgniter é um framework PHP leve e rápido, perfeito para projetos que demandam rapidez
+                            no desenvolvimento. Com sua simplicidade e curva de aprendizado suave, é uma escolha ideal
+                            para construir aplicativos web eficientes e fáceis de manter.
                         </p>
                     </div>
                 </div>
@@ -298,21 +342,42 @@
                 </div>
 
                 <div class="box grid-center">
-                    <div class="img-wrapper"><img src="/imgs/tech/Laravel.svg" alt="Logo Laravel">
+                    <div class="img-wrapper"><img src="/imgs/tech/NET_Core_Logo.svg" alt="Logo NET Core">
                     </div>
                     <div class="description">
-                        <h3>Laravel</h3>
+                        <h3>.NET Core</h3>
                         <p>
-                            Laravel é um framework PHP popular, conhecido por sua elegância e facilidade de uso. Ele
-                            oferece uma sintaxe expressiva e uma ampla variedade de recursos para acelerar o
-                            desenvolvimento de aplicações web robustas, seguindo os princípios da arquitetura MVC.
+                            O .NET Core é um framework de desenvolvimento de software de código aberto, multiplataforma
+                            e altamente escalável. Ele oferece um ambiente de execução consistente para construir
+                            aplicações web, desktop e mobile usando C# ou outras linguagens compatíveis.
                         </p>
                         <h4>Por quê?</h4>
                         <p>
-                            O Laravel é um framework PHP poderoso e elegante que acelera o desenvolvimento web. Com sua
-                            sintaxe expressiva e conjunto de recursos abrangente, como autenticação, roteamento e
-                            gerenciamento de banco de dados, o Laravel permite construir aplicativos robustos de forma
-                            eficiente, seguindo as melhores práticas de desenvolvimento.
+                            O .NET Core é um framework de desenvolvimento versátil e multiplataforma que permite criar
+                            aplicativos escaláveis para diversas plataformas, incluindo web, desktop e mobile. Sua ampla
+                            gama de recursos e suporte a várias linguagens, como C# e F#, tornam-no uma escolha
+                            confiável para desenvolver soluções corporativas de alta performance e segurança.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper"><img src="/imgs/tech/icons8-javascript-480.svg" alt="Logo javascript">
+                    </div>
+                    <div class="description">
+                        <h3>Javascript</h3>
+                        <p>
+                            Javascript é uma linguagem de programação amplamente utilizada para desenvolvimento web. Sua
+                            versatilidade permite criar interações dinâmicas e responsivas nos navegadores, além de
+                            suportar a construção de aplicações do lado do cliente (frontend) e do lado do servidor
+                            (backend).
+                        </p>
+                        <h4>Por quê?</h4>
+                        <p>
+                            O JavaScript é a linguagem de programação essencial para o desenvolvimento web moderno. Com
+                            ele, é possível criar interfaces de usuário interativas, adicionar funcionalidades dinâmicas
+                            às páginas da web e desenvolver aplicativos web completos, além de ser amplamente suportado
+                            por navegadores e frameworks populares.
                         </p>
                     </div>
                 </div>
@@ -334,45 +399,6 @@
                             de programação eficiente, resultando em aplicativos rápidos e responsivos. Sua popularidade
                             e comunidade ativa garantem uma base sólida para o desenvolvimento de aplicações web
                             interativas e escaláveis.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="box grid-center">
-                    <div class="img-wrapper"><img src="/imgs/tech/NET_Core_Logo.svg" alt="Logo NET Core">
-                    </div>
-                    <div class="description">
-                        <h3>.NET Core</h3>
-                        <p>
-                            O .NET Core é um framework de desenvolvimento de software de código aberto, multiplataforma
-                            e altamente escalável. Ele oferece um ambiente de execução consistente para construir
-                            aplicações web, desktop e mobile usando C# ou outras linguagens compatíveis.
-                        </p>
-                        <h4>Por quê?</h4>
-                        <p>
-                            O .NET Core é um framework de desenvolvimento versátil e multiplataforma que permite criar
-                            aplicativos escaláveis para diversas plataformas, incluindo web, desktop e mobile. Sua ampla
-                            gama de recursos e suporte a várias linguagens, como C# e F#, tornam-no uma escolha
-                            confiável para desenvolver soluções corporativas de alta performance e segurança.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="box grid-center">
-                    <div class="img-wrapper"><img src="/imgs/tech/codeigniter.svg" alt="Logo Codeigniter">
-                    </div>
-                    <div class="description">
-                        <h3>Codeigniter 4</h3>
-                        <p>
-                            CodeIgniter é um framework PHP leve e rápido, projetado para facilitar o desenvolvimento de
-                            aplicações web. Ele possui uma curva de aprendizado suave e oferece uma arquitetura MVC
-                            simplificada, tornando-o adequado para projetos de todos os tamanhos.
-                        </p>
-                        <h4>Por quê?</h4>
-                        <p>
-                            O CodeIgniter é um framework PHP leve e rápido, perfeito para projetos que demandam rapidez
-                            no desenvolvimento. Com sua simplicidade e curva de aprendizado suave, é uma escolha ideal
-                            para construir aplicativos web eficientes e fáceis de manter.
                         </p>
                     </div>
                 </div>
