@@ -487,7 +487,7 @@ $anoTrabalhado = ($anoHoje - 2017);
                         que você possa ter.
                     </p>
                     <div class="flex flex-justify-center">
-                        <button id="btnCopiarEmail" class="btn btn-more w-75">Copiar email</button>
+                        <button id="btnCopiarEmail" class="btn btn-more w-75"><i class="fa-solid fa-paste fa-xl pe-2"></i>Copiar email</button>
                     </div>
                 </div>
             </article>
