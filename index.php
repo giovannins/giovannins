@@ -1,3 +1,7 @@
+<?php
+$anoHoje = date('Y');
+$anoTrabalhado = ($anoHoje - 2017);
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -41,7 +45,7 @@
         </div>
     </header>
     <main>
-        <section class="zero">
+        <section id="BemVindo">
             <article class="flex flex-direction-column">
                 <h1 class="hero-header">BACK-END <br> DEVELOPER</h1>
                 <h2 class="hero-description">Giovanni Neves Sadauscas</h2>
@@ -52,6 +56,9 @@
                     </a>
                     <a href="https://github.com/giovannins">
                         <i class="fa-brands fa-github fa-xl"></i>
+                    </a>
+                    <a href="mailto:contato@giovannins.xyz">
+                        <i class="fa-solid fa-envelope fa-xl"></i>
                     </a>
                 </div>
             </article>
@@ -242,7 +249,7 @@
         <section id="Tecnologias">
             <h2 class="is-1 ps-2">Tecnologias</h2>
             <article class="grid grid-is-3">
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/new-php-logo.svg" alt="Logo php"></div>
                     <div class="description">
                         <h3>PHP</h3>
@@ -261,7 +268,7 @@
                     </div>
                 </div>
 
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/symfony.svg" alt="Logo Symfony">
                     </div>
                     <div class="description">
@@ -281,7 +288,7 @@
                     </div>
                 </div>
 
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/Laravel.svg" alt="Logo Laravel">
                     </div>
                     <div class="description">
@@ -301,7 +308,7 @@
                     </div>
                 </div>
 
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/codeigniter.svg" alt="Logo Codeigniter">
                     </div>
                     <div class="description">
@@ -320,7 +327,7 @@
                     </div>
                 </div>
 
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/c-sharp-c.svg" alt="Logo C Sharp">
                     </div>
                     <div class="description">
@@ -341,7 +348,7 @@
                     </div>
                 </div>
 
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/NET_Core_Logo.svg" alt="Logo NET Core">
                     </div>
                     <div class="description">
@@ -361,7 +368,7 @@
                     </div>
                 </div>
 
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/icons8-javascript-480.svg" alt="Logo javascript">
                     </div>
                     <div class="description">
@@ -382,7 +389,7 @@
                     </div>
                 </div>
 
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/React-icon.svg" alt="Logo C Sharp">
                     </div>
                     <div class="description">
@@ -403,7 +410,7 @@
                     </div>
                 </div>
 
-                <div class="box grid-center">
+                <div class="box box-w75 grid-center">
                     <div class="img-wrapper"><img src="/imgs/tech/Vue.js_Logo_2.svg" alt="Logo Vue js">
                     </div>
                     <div class="description">
@@ -455,26 +462,35 @@
             </div>
         </section>
         <section id="SobreMim">
-            <div class="flex flex-justify-evenly">
-                <article class="p-3">
+            <article class="grid grid-is-2">
+                <div class="box box-wide grid-center">
                     <h2 class="is-1 ps-2">Sobre mim</h2>
-                    <p class="pb-4 flow-text">
+                    <p class="p-4 flow-text">
                         Olá! Sou o Giovanni Neves Sadauscas, também conhecido como giovannins. Sou um desenvolvedor com
                         ampla experiência e habilidades diversificadas, especializado em desenvolvimento back-end.
                     </p>
-                    <p class="pb-4 flow-text">
-                        Com um total de 6 anos de experiência profissional em freelances e serviços prestados, estou
+                    <p class="p-4 flow-text">
+                        Com um total de
+                        <?= $anoTrabalhado ?> anos de experiência profissional em freelances e serviços prestados, estou
                         pronto para enfrentar qualquer desafio no mundo do desenvolvimento de software.
                     </p>
-                </article>
-                <article class="p-3">
+                </div>
+                <div class="box box-wide grid-center">
                     <h2 class="is-1 ps-2">Contato</h2>
-                    <p class="pb-4 flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos hic quasi, deserunt, delectus
-                        debitis unde maiores ipsam eum recusandae doloremque libero labore asperiores? Tempora labore,
-                        odit nemo totam obcaecati officia?</p>
-                </article>
-
-            </div>
+                    <p class="p-4 flow-text">
+                        Se você deseja entrar em contato comigo, fique à vontade para me enviar um
+                        e-mail em <a href="mailto:contato@giovannins.xyz">contato@giovannins.xyz</a> ou conectar-se
+                        comigo pelo <a href="https://www.linkedin.com/in/giovanni-neves-sadauscas/">LinkedIn</a>.
+                    </p>
+                    <p class="p-4 flow-text">
+                        Adoraria discutir suas ideias, colaborar em projetos empolgantes ou responder a qualquer dúvida
+                        que você possa ter.
+                    </p>
+                    <div class="flex flex-justify-center">
+                        <button id="btnCopiarEmail" class="btn btn-more w-75">Copiar email</button>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
     <footer>
@@ -487,6 +503,7 @@
             </svg>
         </div>
     </footer>
+    <script src="/js/copiarEmail.js"></script>
 </body>
 
 </html>
