@@ -138,27 +138,6 @@ $anoTrabalhado = ($anoHoje - 2017);
 
                 <div class="box grid-center">
                     <div class="img-wrapper">
-                        <img src="/imgs/logos/grosafety.jpg" alt="Gro safety">
-                    </div>
-                    <div class="description">
-                        <h3>Desenvolvedor Full-stack</h3>
-                        <h4>GRO Safety</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, tenetur doloribus. Minus
-                            suscipit, doloremque tempore obcaecati voluptas dicta itaque dolore ad expedita officiis
-                            amet quae tenetur sequi quidem. Commodi, eaque?</p>
-                    </div>
-                    <div class="label-wrapper">
-                        <span class="label">php</span>
-                        <span class="label">codeigniter 4</span>
-                        <span class="label">css</span>
-                        <span class="label">vue.js</span>
-                        <span class="label">mysql</span>
-                    </div>
-                </div>
-
-
-                <div class="box grid-center">
-                    <div class="img-wrapper">
                         <img src="/imgs/logos/partnervision.jpg" alt="Partnervision">
                     </div>
                     <div class="description">
