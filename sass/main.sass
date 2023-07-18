@@ -20,10 +20,12 @@ body
 @import _imgs
 @import _label
 @import _list
+@import _margin
 @import _padding
 @import _paragraph
 
-section.zero
+section#BemVindo,
+section#SobreMim
     padding: 6rem 0 3rem 0
 
 hr
@@ -34,3 +36,12 @@ hr
 
 p.justify
     text-align: justify
+
+.border
+    border: 0px solid black
+
+    &-rounded
+        border-radius: .5rem
+
+.w-75
+    width: 75%
