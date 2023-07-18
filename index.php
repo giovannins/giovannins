@@ -118,21 +118,20 @@ $anoTrabalhado = ($anoHoje - 2017);
 
                 <div class="box grid-center">
                     <div class="img-wrapper">
-                        <img src="/imgs/logos/cruz_azul.png" alt="Cruz-Azul">
+                        <img src="/imgs/logos/grosafety.jpg" alt="GRO Safety">
                     </div>
                     <div class="description">
-                        <h3>Desenvolvedor Back-end</h3>
-                        <h4>Hospital Cruz Azul SP</h4>
-                        <p>Desenvolvimento e integração de APIs utilizando C# e .NET Core em parceria com o Hospital
-                            Cruz-Azul de São Paulo, em prol da Caixa Beneficente da Polícia Militar. Desenvolvimento de
-                            soluções que permitem prestar atendimento especializado aos dependentes e pensionistas dos
-                            policiais militares.</p>
+                        <h3>Desenvolvedor Full-stack</h3>
+                        <h4>GRO Safety</h4>
+                        <p>Fiz parte da equipe de desenvolvimento de um sistema de Gerenciamento de Risco Ocupacional
+                            (GRO) com o objetivo de aprimorar a saúde e segurança dos trabalhadores. 
+                            Contribui na parte de API RESTful e implementação em vue.js</p>
                     </div>
                     <div class="label-wrapper">
-                        <span class="label">c#</span>
-                        <span class="label">.netcore</span>
-                        <span class="label">swagger</span>
-                        <span class="label">sql server</span>
+                        <span class="label">php</span>
+                        <span class="label">codeigniter 4</span>
+                        <span class="label">vue.js</span>
+                        <span class="label">mysql</span>
                     </div>
                 </div>
 
@@ -180,7 +179,8 @@ $anoTrabalhado = ($anoHoje - 2017);
                     <div class="desciption">
                         <h3>Desenvolvedor Full-stack</h3>
                         <h4>Sinais power</h4>
-                        <p>Desenvolvi e automatizei alertas e sinais do mercado de ações para os usuários participantes,
+                        <p>Desenvolvedor e automatizei alertas e sinais do mercado de ações para os usuários
+                            participantes,
                             conectando-me por meio de Javascript AJAX e utilizando Web Socket para atualizações em tempo
                             real. </p>
                     </div>
@@ -189,6 +189,42 @@ $anoTrabalhado = ($anoHoje - 2017);
                         <span class="label">javascript</span>
                         <span class="label">mysql</span>
                         <span class="label">web socket</span>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="desciption">
+                        <h3>Desenvolvedor Full-stack</h3>
+                        <h4>Motor Vapor</h4>
+                        <p>Realizei a implementação de um sistema Drupal, incluindo a configuração do banco de dados e a
+                            configuração do provedor de hospedagem. Além disso, fiz o desenvolvimento e deploy de uma
+                            API RESTful para possibilitar integrações futuras. </p>
+                    </div>
+                    <div class="label-wrapper">
+                        <span class="label">php</span>
+                        <span class="label">drupal</span>
+                        <span class="label">postgreSQL</span>
+                        <span class="label">web socket</span>
+                    </div>
+                </div>
+
+                <div class="box grid-center">
+                    <div class="img-wrapper">
+                        <img src="/imgs/logos/guerreirosgames.png" alt="Guerreiros Games">
+                    </div>
+                    <div class="desciption">
+                        <h3>Desenvolvedor Full-stack</h3>
+                        <h4>Guerreiros Games</h4>
+                        <p>Desenvolvi um mini ERP com API RESTful, visando aprimorar as operações internas relacionadas
+                            ao controle de estoque e fluxo de trabalho do suporte e ordem de serviços. Além disso, criei
+                            um aplicativo Android em Java.</p>
+                    </div>
+                    <div class="label-wrapper">
+                        <span class="label">php</span>
+                        <span class="label">codeigniter 4</span>
+                        <span class="label">postgreSQL</span>
+                        <span class="label">java</span>
+                        <span class="label">android</span>
                     </div>
                 </div>
 
@@ -466,7 +502,8 @@ $anoTrabalhado = ($anoHoje - 2017);
                         que você possa ter.
                     </p>
                     <div class="flex flex-justify-center">
-                        <button id="btnCopiarEmail" class="btn btn-more w-75"><i class="fa-solid fa-paste fa-xl pe-2"></i>Copiar email</button>
+                        <button id="btnCopiarEmail" class="btn btn-more w-75"><i
+                                class="fa-solid fa-paste fa-xl pe-2"></i>Copiar email</button>
                     </div>
                 </div>
             </article>
