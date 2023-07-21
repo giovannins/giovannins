@@ -8,7 +8,7 @@ $anoTrabalhado = ($anoHoje - 2017);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Giovanni Neves Sadauscas">
+    <meta name="author" content="Giovanni Neves">
     <meta name="keywords"
         content="Desenvolvedor Back-end, API RESTful, Laravel, Symfony, Codeigniter, desenvolvimento web, inovação tecnológica">
     <meta name="language" content="Português">
@@ -30,7 +30,7 @@ $anoTrabalhado = ($anoHoje - 2017);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Giovanni Neves Sadauscas - Desenvolvedor Back-end</title>
+    <title>Giovanni Neves - Desenvolvedor Back-end</title>
 </head>
 
 <body>
@@ -48,7 +48,7 @@ $anoTrabalhado = ($anoHoje - 2017);
         <section id="BemVindo">
             <article class="flex flex-direction-column">
                 <h1 class="hero-header">BACK-END <br> DEVELOPER</h1>
-                <h2 class="hero-description">Giovanni Neves Sadauscas</h2>
+                <h2 class="hero-description">Giovanni Neves</h2>
 
                 <div role="link" class="row-links">
                     <a href="https://www.linkedin.com/in/giovanni-neves-sadauscas/">
@@ -481,7 +481,7 @@ $anoTrabalhado = ($anoHoje - 2017);
                 <div class="box box-wide grid-center">
                     <h2 class="is-1 ps-2">Sobre mim</h2>
                     <p class="p-4 flow-text">
-                        Olá! Sou o Giovanni Neves Sadauscas, também conhecido como giovannins. Sou um desenvolvedor com
+                        Olá! Sou o Giovanni Neves, também conhecido como giovannins. Sou um desenvolvedor com
                         ampla experiência e habilidades diversificadas, especializado em desenvolvimento back-end.
                     </p>
                     <p class="p-4 flow-text">
