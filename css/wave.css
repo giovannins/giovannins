@@ -14,13 +14,8 @@
     height: 169px;
 }
 
-@media (max-width: 480px) {
-    .wave-top-0 svg {
-        height: 120px;
-    }
-}
-
 .wave-top-0 .shape-fill {
+    animation: wave-anime-0 12s alternate infinite;
     fill: #8B008B;
 }
 
@@ -41,6 +36,7 @@
 }
 
 .wave-bottom-1 .shape-fill {
+    animation: wave-anime-1 12s alternate infinite;
     fill: #00FFBF;
 }
 
@@ -60,6 +56,7 @@
 }
 
 .wave-top-1 .shape-fill {
+    animation: wave-anime-1 12s alternate infinite;
     fill: #00FFBF;
 }
 
@@ -81,6 +78,7 @@
 }
 
 .wave-bottom-2 .shape-fill {
+    animation: wave-anime-2 12s alternate infinite;
     fill: #FF8C00;
 }
 
@@ -99,5 +97,141 @@
 }
 
 .wave-top-2 .shape-fill {
+    animation: wave-anime-2 12s alternate infinite;
     fill: #FF8C00;
+}
+
+
+.wave-bottom-3 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-bottom-3 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.wave-bottom-3 .shape-fill {
+    animation: wave-anime-3 12s alternate infinite;
+    fill: #FFC6FF;
+}
+
+
+.wave-top-3 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-top-3 svg {
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 100px;
+}
+
+.wave-top-3 .shape-fill {
+    animation: wave-anime-3 12s alternate infinite;
+    fill: #FFC6FF;
+}
+
+
+.wave-bottom-0 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-bottom-0 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.wave-bottom-0 .shape-fill {
+    animation: wave-anime-0 12s alternate infinite;
+    fill: #8B008B;
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .wave-top-0 svg {
+        height: 120px;
+    }
+
+    .wave-bottom-2 svg {
+        height: 60px;
+    }
+
+    .wave-top-2 svg {
+        height: 60px;
+    }
+
+    .wave-top-3 svg {
+        height: 60px;
+    }
+
+    .wave-bottom-3 svg {
+        height: 60px;
+    }
+
+    .wave-bottom-0 svg {
+        height: 60px;
+    }
+}
+
+
+
+@keyframes wave-anime-0 {
+    from {
+        fill: #8B008B;
+    }
+
+    to {
+        fill: #FF00BF;
+    }
+}
+
+@keyframes wave-anime-1 {
+    from {
+        fill: #00FFBF;
+    }
+
+    to {
+        fill: #008080;
+    }
+}
+
+@keyframes wave-anime-2 {
+    from {
+        fill: #FF8C00;
+    }
+
+    to {
+        fill: #FF6000;
+    }
+}
+
+@keyframes wave-anime-3 {
+    from {
+        fill: #FFC6FF;
+    }
+
+    to {
+        fill: #FF00FF;
+    }
 }

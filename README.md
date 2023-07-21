@@ -1,6 +1,6 @@
 # Olá
 
-Olá! Sou o Giovanni Neves Sadauscas, também conhecido como giovannins ou, melhor ainda, o "mago do código" (brincadeira!). Sou um desenvolvedor com ampla experiência e habilidades diversificadas, especializado em desenvolvimento back-end. Com um total de 6 anos de experiência profissional em freelances e serviços prestados, estou pronto para enfrentar qualquer desafio no mundo do desenvolvimento de software.
+Olá! Sou o Giovanni Neves, também conhecido como giovannins ou, melhor ainda, o "mago do código" (brincadeira!). Sou um desenvolvedor com ampla experiência e habilidades diversificadas, especializado em desenvolvimento back-end. Com um total de 6 anos de experiência profissional em freelances e serviços prestados, estou pronto para enfrentar qualquer desafio no mundo do desenvolvimento de software.
 
 ## Habilidades principais
 
