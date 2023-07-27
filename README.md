@@ -14,7 +14,7 @@ Além do desenvolvimento back-end, tenho proficiência em Typescript/Javascript 
 
 ### Frameworks
 
-Trabalho com os frameworks: Laravel, Symfony, CodeIgniter, CakePHP, React.js, Vue.js, Adonis.js e NEST.js. Onde tenho um amplo conhecimento e experiência prática. Essas ferramentas são fundamentais para o desenvolvimento eficiente de aplicações web e me permitem criar soluções de alta qualidade em tempo hábil.
+Trabalho com os frameworks: Laravel, Symfony, CodeIgniter, CakePHP, Angular, Vue.js, Adonis.js e NEST.js. Onde tenho um amplo conhecimento e experiência prática. Essas ferramentas são fundamentais para o desenvolvimento eficiente de aplicações web e me permitem criar soluções de alta qualidade em tempo hábil.
 
 ---
 
