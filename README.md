@@ -6,7 +6,7 @@ Olá! Sou o Giovanni Neves, também conhecido como giovannins ou, melhor ainda, 
 
 ### Desenvolvimento back-end
 
-Sou especialista nas linguagens Java, PHP e Typescript/Javascript, com habilidades avançadas em ambas. Minha experiência nesses idiomas permite-me criar soluções robustas e eficientes, garantindo um desempenho excelente e escalabilidade para os projetos.
+Sou especialista nas linguagens C#, PHP e Typescript/Javascript, com habilidades avançadas em ambas. Minha experiência nesses idiomas permite-me criar soluções robustas e eficientes, garantindo um desempenho excelente e escalabilidade para os projetos.
 
 ### Client/Front-end
 
@@ -14,7 +14,7 @@ Além do desenvolvimento back-end, tenho proficiência em Typescript/Javascript 
 
 ### Frameworks
 
-Trabalho com os frameworks: Spring, Laravel, Symfony, CodeIgniter, CakePHP, Angular, Vue.js, Adonis.js e NEST.js. Onde tenho um amplo conhecimento e experiência prática. Essas ferramentas são fundamentais para o desenvolvimento eficiente de aplicações web e me permitem criar soluções de alta qualidade em tempo hábil.
+Trabalho com os frameworks: .NET, Laravel, Symfony, CodeIgniter, CakePHP, Angular, Vue.js, Adonis.js e NEST.js. Onde tenho um amplo conhecimento e experiência prática. Essas ferramentas são fundamentais para o desenvolvimento eficiente de aplicações web e me permitem criar soluções de alta qualidade em tempo hábil.
 
 ---
 
