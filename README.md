@@ -1,21 +1,22 @@
-# Olá
+# Giovanni Neves Sadauscas
 
-Olá! Sou o Giovanni Neves, também conhecido como giovannins ou, melhor ainda, o "mago do código" (brincadeira!). Sou um desenvolvedor com ampla experiência e habilidades diversificadas, especializado em desenvolvimento back-end. Com um total de 6 anos de experiência profissional em freelances e serviços prestados, estou pronto para enfrentar qualquer desafio no mundo do desenvolvimento de software.
+## Resumo
 
-## Habilidades principais
+Olá, sou Giovanni, um desenvolvedor Ruby apaixonado pelo backend. Tenho uma sólida experiência em criar soluções robustas para diversas necessidades. Estou sempre buscando aprender e crescer na área de desenvolvimento web, explorando novas tecnologias e melhores práticas. Além do código, tenho um grande interesse pela pintura a óleo, encontrando inspiração na combinação de cores e texturas, o que também influencia minha abordagem criativa no desenvolvimento de software.
 
-### Desenvolvimento back-end
+## Tecnologias
 
-Sou especialista nas linguagens C#, PHP e Typescript/Javascript, com habilidades avançadas em ambas. Minha experiência nesses idiomas permite-me criar soluções robustas e eficientes, garantindo um desempenho excelente e escalabilidade para os projetos.
+- Ruby
+- Rails
+- Javascript
+- NodeJS
+- Docker
+- PostgreSQL
+- mongoDB
+- Redis
 
-### Client/Front-end
+## Softwares
 
-Além do desenvolvimento back-end, tenho proficiência em Typescript/Javascript para criação de interfaces de usuário atraentes e interativas. Posso garantir uma experiência de usuário fluida e intuitiva, utilizando as melhores práticas e tecnologias do mercado.
-
-### Frameworks
-
-Trabalho com os frameworks: .NET, Laravel, Symfony, CodeIgniter, CakePHP, Angular, Vue.js, Adonis.js e NEST.js. Onde tenho um amplo conhecimento e experiência prática. Essas ferramentas são fundamentais para o desenvolvimento eficiente de aplicações web e me permitem criar soluções de alta qualidade em tempo hábil.
-
----
-
-Como um desenvolvedor Full Stack experiente, estou sempre em busca de novos desafios e oportunidades para aplicar meu conhecimento e habilidades. Minha paixão pela programação e meu comprometimento com a entrega de soluções de alta qualidade me tornam um profissional confiável e valorizado no mercado. Estou pronto para contribuir com projetos inovadores, trabalhando em equipe e ajudando a impulsionar o sucesso dos negócios por meio da tecnologia.
+- RubyMine
+- Visual Studio Code
+- Postman
