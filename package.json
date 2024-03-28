@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "sass:w": "sass sass/main.sass css/style.css -w",
-    "sass:prod": "sass sass/main.sass css/style.css -s compressed"
-  },
-  "dependencies": {
-    "sass": "^1.63.6"
-  }
-}
