@@ -1,6 +1,6 @@
 # Giovanni Neves Sadauscas
 
-My name is Giovanni, I'm 24 years old, and I'm a developer with over 7 years of experience, focused on Java, Ruby on Rails and Scala. Throughout my career, I've cultivated a passion for solving problems in practical ways, building solutions that truly work, and making life easier for those who use them.
+My name is Giovanni, I'm 25 years old, and I'm a developer with over 7 years of experience, focused on Java, Ruby on Rails and Scala. Throughout my career, I've cultivated a passion for solving problems in practical ways, building solutions that truly work, and making life easier for those who use them.
 
 Beyond programming, I'm an oil painting enthusiast, a hobby that helps me exercise creativity and find balance. I also enjoy exploring new knowledge and unwinding with great games, which gives me a fresh and creative perspective on tackling daily challenges.
 
